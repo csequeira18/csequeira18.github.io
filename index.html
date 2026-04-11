@@ -150,6 +150,78 @@
               <p>
               Implementation
               </p>
+            </div>
+
+        <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+          
+          <img src="/Users/cocosequeira/Desktop/COMP305/csequeira18.github.io-1/ElevatorClassDiagram.png" alt="Image of your project" class="img-fluid">
+            
+        </div>
+        <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="mb-4">
+              <h3>Elevator Simulator</h3>
+              <p>
+                This project involves making an elevator simulation system that models how 
+                different types of elevators respond to service requests in a building. The 
+                system includes multiple elevator types (Standard, Freight, Penthouse, and Express),
+                each with unique constraints on movement and call handling. A scheduler dynamically 
+                assigns calls to elevators based on either a simple or optimized strategy. The project 
+                uses skills such as the four OOP pillars (abstraction, inheritance, encapsulation, 
+                and polymorphism), SOLID principles, and test-driven development. Additionally, 
+                it implements team working skills using GitHub. These include branching, pull requests,
+                and code reviews.
+              </p>
+              <p>
+                At a high level, the simulator models how elevators move through a building and respond 
+                to requests over time. Users provide inputs such as the number of floors, types of elevators, 
+                and a list of elevator calls. The system then runs in discrete “rounds,” where each round 
+                represents a step in time.
+                
+                During each round, a scheduler assigns at most one call to an elevator based on a specific 
+                strategy. The elevators then move one floor at a time toward completing their assigned calls. 
+                Each elevator must follow strict rules—for example, some can only travel to certain floors, 
+                some cannot change direction while occupied, and others can only carry one person at a time.
+                
+                The simulation continues until all calls are completed and all elevators return to the ground 
+                floor. Throughout the process, the system prints the full state of each elevator at every round,
+                allowing users to track how decisions are made and how efficiently calls are handled.
+              </p>
+              <p>
+                I took charge of writing the Elevator class and the implementations of each type of Elevator, 
+                as well as the Call class and DIRECTION enum. Throughout the project we focused on
+                team working skills like writing clean code practices and submitting clear code reviews.
+              </p>
+              <p>
+                For this project, I focused on implementing core elevator behaviors and ensuring they 
+                adhered strictly to their constraints. This included writing logic for how elevators accept 
+                calls, move between floors, and handle direction changes. I also contributed to designing the 
+                interaction between elevators and the scheduler to ensure calls were assigned and processed correctly.
+                
+                A major part of the development process was following test-driven development (TDD). For each 
+                feature, I first wrote unit tests to define expected behavior, then implemented the code to pass
+                those tests. This approach helped catch edge cases early and ensured that each component worked 
+                correctly in isolation. It also made debugging significantly easier as the project grew in complexity.
+                 
+                We used GitHub for collaboration, working with branches and pull requests to manage contributions. 
+                Code reviews played an important role in improving code quality and maintaining consistency across 
+                the project.
+              </p>
+
+              </p>
+                This project significantly strengthened my understanding of object-oriented design and how to apply 
+                it to a real system with multiple interacting components. I gained practical experience with SOLID 
+                principles and saw how they directly improve code readability and maintainability.
+
+                Test-driven development was one of the most valuable takeaways. Writing tests first forced 
+                me to think more carefully about design and edge cases before implementation, leading to more 
+                robust code overall.
+              
+                I also improved my ability to design systems collaboratively, use version control effectively, and 
+                communicate technical decisions through code reviews. Overall, this project helped bridge the gap 
+                between theoretical concepts and real-world software development.
+              </p>
+              
 
 
             </div>
