@@ -1,34 +1,42 @@
 <!doctype html>
 <html lang="en">
-  <head>
 
-    <title>Your personal website</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <title>Coco Sequeira | Computer Science &amp; Product</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Coco Sequeira is a Computer Science student at the University of San Diego with minors in Mathematics and Film Studies, interested in product management.">
 
+  <!-- Sharing preview. Swap the image for any picture in /images -->
+  <meta property="og:title" content="Coco Sequeira | Computer Science &amp; Product">
+  <meta property="og:description" content="Computer Science student at USD, Division I rower, interested in product management.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://csequeira18.github.io/images/IDpicture.jpg">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <style>
+    /* Small additions for the new sections. Move into scss/css later if you like. */
+    .tag-list { list-style: none; padding: 0; margin: 0 0 1rem; display: flex; flex-wrap: wrap; gap: .5rem; }
+    .tag-list li { border: 1px solid #ced4da; border-radius: 999px; padding: .15rem .8rem; font-size: .9rem; }
+    .project-meta { margin-bottom: .25rem; font-weight: 700; }
+    .skills-group h3 { font-size: 1.1rem; margin-bottom: .75rem; }
+    .contact-links a { margin: 0 .75rem; }
+    :focus-visible { outline: 3px solid #0d6efd; outline-offset: 2px; }
+  </style>
+</head>
 
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
-    <link rel="stylesheet" href="css/aos.css">
-
-    <link rel="stylesheet" href="css/style.css">
-
-  </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
   <div id="overlayer"></div>
   <div class="loader">
@@ -36,7 +44,6 @@
       <span class="sr-only">Loading...</span>
     </div>
   </div>
-
 
   <div class="site-wrap">
 
@@ -49,9 +56,7 @@
       <div class="site-mobile-menu-body"></div>
     </div>
 
-
     <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
-
       <div class="container">
         <div class="row align-items-center">
 
@@ -61,264 +66,205 @@
 
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
-
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="#about-section" class="nav-link">About</a></li>
+                <li><a href="#skills-section" class="nav-link">Skills</a></li>
                 <li><a href="#projects-section" class="nav-link">Projects</a></li>
                 <li><a href="#contact-section" class="nav-link">Contact</a></li>
               </ul>
             </nav>
           </div>
 
-
-          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
+          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;">
+            <a href="#" class="site-menu-toggle js-menu-toggle float-right" aria-label="Open menu"><span class="icon-menu h3"></span></a>
+          </div>
 
         </div>
       </div>
-
     </header>
 
-
-
-
+    <!-- ABOUT -->
     <div class="site-section cta-big-image border-bottom" id="about-section">
       <div class="container" style="padding-top: 30px">
         <div class="row">
-          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
-
-            <img src="images/IDpicture.jpg" alt="" class="img-fluid">
-
+          <div class="col-lg-6 mb-5" data-aos="fade-up">
+            <img src="images/IDpicture.jpg" alt="Portrait of Coco Sequeira" class="img-fluid">
           </div>
           <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
             <div class="mb-4">
+              <h2 class="h3 mb-3">Computer Science student interested in product management</h2>
               <p>
-               I grew up in Cambridge, Massachusetts and am currently studying Computer Science at the University of San Diego.
-               I am minoring in Mathematics and Film Studies. Additionally, I intend on pursuing a Master of Science in Cyber Security Engineering
-               next Spring.
+                I grew up in Cambridge, Massachusetts and study Computer Science at the University of San Diego,
+                with minors in Mathematics and Film Studies. I'm interested in product management because I like
+                working where technical decisions meet the people who use what gets built.
+              </p>
               <p>
-                At the University of San Diego, I have learned coding languages such as Python, Java, C, and C++. I have a strong understanding of both iOs and 
-                Linux operating systems. I am confident in both Microsoft Office and Google Suite. 
-               </p>
-               <p>
-                In my free time, I enjoy being outdoors. I am a Division I athlete on the Women's Rowing team at USD, so I already get to spend 
-                most of my time outside. Other than rowing, I enjoy hiking, swimming, camping, and most water-related activities. Indoors, I like making baked goods to share 
-                with family and friends.
-               </p>
-
-
+                My coursework and team projects have taught me to write clean, tested code and to work with
+                teammates through branches, pull requests, and code reviews. That background helps me
+                understand what is feasible and talk clearly with engineers.
+              </p>
+              <p>
+                I'm a Division I athlete on the USD Women's Rowing team, which has taught me a lot about
+                showing up consistently and working as part of a crew. Outside of rowing, I like hiking, swimming,
+                camping, and baking for family and friends.
+              </p>
             </div>
-
-            
-
           </div>
         </div>
       </div>
     </div>
 
+    <!-- SKILLS -->
+    <section class="site-section border-bottom" id="skills-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2 class="section-title mb-3" data-aos="fade-up">Skills</h2>
+          </div>
+        </div>
+        <div class="row" data-aos="fade-up">
+          <div class="col-md-4 mb-4 skills-group">
+            <h3>Programming</h3>
+            <ul class="tag-list">
+              <li>Python</li>
+              <li>Java</li>
+              <li>C</li>
+              <li>C++</li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-4 skills-group">
+            <h3>Engineering practices</h3>
+            <ul class="tag-list">
+              <li>Object-oriented design</li>
+              <li>SOLID principles</li>
+              <li>Test-driven development</li>
+              <li>Git and GitHub</li>
+              <li>Code reviews</li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-4 skills-group">
+            <h3>Tools</h3>
+            <ul class="tag-list">
+              <li>macOS</li>
+              <li>Linux</li>
+              <li>Microsoft Office</li>
+              <li>Google Workspace</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-
+    <!-- PROJECTS -->
     <section class="site-section border-bottom" id="projects-section">
       <div class="container">
         <div class="row mb-5 justify-content-center">
           <div class="col-md-8 text-center">
-            <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Projects</h2>
+            <h2 class="section-title mb-3" data-aos="fade-up">Projects</h2>
           </div>
         </div>
+
+        <!-- Birthday Paradox -->
         <div class="row">
-          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
-          
-            <img src="images/birthdayParadoxgraph.png" alt="Image of your project" class="img-fluid">
-          
+          <div class="col-lg-6 mb-5" data-aos="fade-up">
+            <img src="images/birthdayParadoxgraph.png" alt="Graph of birthday paradox simulation results by group size" class="img-fluid">
           </div>
           <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
             <div class="mb-4">
               <h3>Birthday Paradox</h3>
+              <ul class="tag-list">
+                <li>Java</li>
+                <li>Team project</li>
+              </ul>
               <p>
-                The birthday paradox says that the probability that two people in a room 
-                will have the same birthday is more than half, provided n, the number of people in the room, is
-                more than 23.
+                A simulation of the birthday paradox, which says that once a room holds more than 23 people, the
+                chance that two share a birthday is better than 50%. The program tests groups of 5 to 100 people,
+                running 20 trials per group size with randomly generated birthdays and tracking how often duplicates appear.
               </p>
-              <p>
-                This project runs a simulation of the birthday paradox. One simulation involves running experiments testing the paradox
-                on trial groups ranging from 5 to 100 people. In an experiment, 20 trials will be run on the given number of people being tested on.
-                Random birthdays are generated for each trial run, and the amount of duplicate birthdays is tracked per exepr
-              </p>
-              <p>
-                I took charge of writing the Trial class, as well as the Experiment class. Throughout the project we focused on
-                implementing clean code practices as well as clear commit messages.
-              </p>
-              <p>
-              Implementation
-              </p>
+              <p class="project-meta">My role</p>
+              <p>I wrote the Trial and Experiment classes. We focused on clean code and clear commit messages.</p>
+              <!-- TODO: replace the link below with this project's repo URL -->
+              <a href="https://github.com/csequeira18" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener">View on GitHub</a>
             </div>
           </div>
         </div>
+
+        <!-- Elevator Simulator -->
         <div class="row">
-          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
-          
-            <img src="images/ElevatorClassDiagram.png" alt="Image of your project" class="img-fluid">
-          
+          <div class="col-lg-6 mb-5" data-aos="fade-up">
+            <img src="images/ElevatorClassDiagram.png" alt="Class diagram of the elevator simulator" class="img-fluid">
           </div>
           <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
             <div class="mb-4">
               <h3>Elevator Simulator</h3>
+              <ul class="tag-list">
+                <li>Java</li>
+                <li>Test-driven development</li>
+                <li>Team project</li>
+              </ul>
               <p>
-                This project involves making an elevator simulation system that models how 
-                different types of elevators respond to service requests in a building. The 
-                system includes multiple elevator types (Standard, Freight, Penthouse, and Express),
-                each with unique constraints on movement and call handling. A scheduler dynamically 
-                assigns calls to elevators based on either a simple or optimized strategy. The project 
-                uses skills such as the four OOP pillars (abstraction, inheritance, encapsulation, 
-                and polymorphism), SOLID principles, and test-driven development. Additionally, 
-                it implements team working skills using GitHub. These include branching, pull requests,
-                and code reviews.
+                A simulation of how different elevators respond to service requests in a building. Standard, Freight,
+                Penthouse, and Express elevators each follow their own rules about which floors they can reach and
+                when they can change direction. A scheduler assigns calls using either a simple or an optimized
+                strategy, and the program prints every elevator's state each round so you can follow its decisions.
               </p>
+              <p class="project-meta">My role</p>
               <p>
-                At a high level, the simulator models how elevators move through a building and respond 
-                to requests over time. Users provide inputs such as the number of floors, types of elevators, 
-                and a list of elevator calls. The system then runs in discrete “rounds,” where each round 
-                represents a step in time.
-                
-                During each round, a scheduler assigns at most one call to an elevator based on a specific 
-                strategy. The elevators then move one floor at a time toward completing their assigned calls. 
-                Each elevator must follow strict rules—for example, some can only travel to certain floors, 
-                some cannot change direction while occupied, and others can only carry one person at a time.
-                
-                The simulation continues until all calls are completed and all elevators return to the ground 
-                floor. Throughout the process, the system prints the full state of each elevator at every round,
-                allowing users to track how decisions are made and how efficiently calls are handled.
+                I wrote the Elevator class, each elevator type, the Call class, and the DIRECTION enum, and I helped
+                design how elevators and the scheduler interact. I wrote unit tests before the code for each feature,
+                and our team used branches, pull requests, and code reviews.
               </p>
+              <p class="project-meta">What I learned</p>
               <p>
-                I took charge of writing the Elevator class and the implementations of each type of Elevator, 
-                as well as the Call class and DIRECTION enum. Throughout the project we focused on
-                team working skills like writing clean code practices and submitting clear code reviews.
+                Writing tests first made me define the expected behavior and edge cases before building anything,
+                a habit I'd want on any product team.
               </p>
-              <p>
-                For this project, I focused on implementing core elevator behaviors and ensuring they 
-                adhered strictly to their constraints. This included writing logic for how elevators accept 
-                calls, move between floors, and handle direction changes. I also contributed to designing the 
-                interaction between elevators and the scheduler to ensure calls were assigned and processed correctly.
-                
-                A major part of the development process was following test-driven development (TDD). For each 
-                feature, I first wrote unit tests to define expected behavior, then implemented the code to pass
-                those tests. This approach helped catch edge cases early and ensured that each component worked 
-                correctly in isolation. It also made debugging significantly easier as the project grew in complexity.
-                 
-                We used GitHub for collaboration, working with branches and pull requests to manage contributions. 
-                Code reviews played an important role in improving code quality and maintaining consistency across 
-                the project.Implementation
-              </p>
-              <p>
-                This project significantly strengthened my understanding of object-oriented design and how to apply 
-                it to a real system with multiple interacting components. I gained practical experience with SOLID 
-                principles and saw how they directly improve code readability and maintainability.
-
-                Test-driven development was one of the most valuable takeaways. Writing tests first forced 
-                me to think more carefully about design and edge cases before implementation, leading to more 
-                robust code overall.
-              
-                I also improved my ability to design systems collaboratively, use version control effectively, and 
-                communicate technical decisions through code reviews. Overall, this project helped bridge the gap 
-                between theoretical concepts and real-world software development.
-              </p>
+              <!-- TODO: replace the link below with this project's repo URL -->
+              <a href="https://github.com/csequeira18" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener">View on GitHub</a>
             </div>
-
-       
-            </div>
-
-            
-
           </div>
-          <div class="row">
-            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
-            
-              <img src="images/gameOfLife.jpg" alt="Game of Life Board" class="img-fluid mb-3">
-            
-            </div>
-            
-            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
-              <div class="mb-4">
-                <h3>Game of Life</h3>
-                <p>
-                  For our project, we decided to create a “Game of Life” style life simulator because we 
-                  wanted to build something that was interactive and relatable to a general audience. The 
-                  project allowed us to combine problem-solving with creativity by simulating realistic life events
-                  such as careers, marriage, children, housing, transportation, and insurance costs. We chose this 
-                  project because it allowed us to gain experience designing a large-scale object-oriented program, 
-                  while creating something interactive for users. 
-                </p>
-                <p>
-                  The Game of Life simulator allows a player to create and guide a virtual character through 
-                  different stages of life. At the beginning of the game, the user creates a character and 
-                  progresses year by year through major milestones such as high school, college, careers,
-                   marriage, parenthood, buying cars, and purchasing homes. Throughout the simulation, 
-                   the player makes decisions that affect their character's finances, lifestyle, and future 
-                   opportunities.
-
-                  The game uses random events and player choices to create a different experience each 
-                  time it is played. For example, players may be offered different career paths, experience 
-                  unexpected life events, or make financial decisions that impact insurance costs and overall 
-                  wealth. The simulator tracks important information such as age, salary, family status, 
-                  assets, and expenses, allowing the player to see how their decisions shape their life over time.
-
-                  The project was designed to be simple enough for casual users to understand while still 
-                  including enough depth to make the simulation feel realistic and strategic. Players 
-                  can experiment with different choices and compare outcomes, making the game replayable 
-                  and engaging.
-                </p>
-                <p>
-                  A major focus of this project was designing the software in a clean, modular, and 
-                  object-oriented way. We implemented the project in the Java programming language because 
-                  it is well-suited for object-oriented programming and was the primary language used throughout 
-                  the course. Java also provides strong support for classes, enums, inheritance, and encapsulation, 
-                  which were all essential for organizing the simulation.
-
-                  The project was divided into multiple classes that each handled a specific responsibility. For example, 
-                  the Character class stored information about the player’s life, while separate classes represented 
-                  careers, houses, cars, and insurance systems. We also used enums to represent fixed categories 
-                  such as career types or education levels. This made the code easier to read, maintain, and expand.
-
-                  One important design decision was separating game logic from data models. Instead of placing all 
-                  functionality into one large file, we created methods and classes with single responsibilities. 
-                  This improved readability and made debugging significantly easier. We also focused on scalability 
-                  so that new life events or systems could be added later without needing to completely rewrite 
-                  the project structure.
-                </p>
-                <p>
-                  My primary responsibility in the project was implementing the life simulation systems and financial mechanics. 
-                  I worked on features related to character progression, career selection, insurance calculations, and major 
-                  life events such as marriage, having children, and purchasing homes or vehicles. I also contributed to 
-                  debugging and improving the overall structure of the codebase.
-
-                  Throughout development, I practiced test-driven development by creating and running unit tests to verify 
-                  that methods behaved correctly. For example, I tested insurance premium calculations and character state 
-                  updates to ensure the simulation remained accurate after changes were made. I also spent significant time 
-                  debugging issues related to object interactions and state management, which helped strengthen my understanding 
-                  of object-oriented design principles.
-
-                  In addition, our group used collaborative software development practices such as version control with Git 
-                  and repository hosting through GitHub. Using branches, pull requests, and shared testing workflows allowed 
-                  us to collaborate efficiently while minimizing conflicts in the codebase. The project gave me valuable 
-                  experience working on a larger software system and applying classroom concepts to a realistic programming project.
-                </p>
-                <p>
-                  
-                </p>
-              </div>
-  
-         
-              </div>
-  
-              
-  
-            </div>
         </div>
-      </div>
-      
 
+        <!-- Game of Life -->
+        <div class="row">
+          <div class="col-lg-6 mb-5" data-aos="fade-up">
+            <img src="images/gameOfLife.jpg" alt="Game of Life board" class="img-fluid mb-3">
+          </div>
+          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            <div class="mb-4">
+              <h3>Game of Life</h3>
+              <ul class="tag-list">
+                <li>Java</li>
+                <li>Object-oriented design</li>
+                <li>Team project</li>
+              </ul>
+              <p>
+                An interactive life simulator where players create a character and move year by year through
+                school, careers, marriage, children, and buying cars and homes. Random events and player choices
+                affect the character's finances and opportunities, so every playthrough is different. We chose it
+                because we wanted something fun and relatable for a general audience.
+              </p>
+              <p class="project-meta">My role</p>
+              <p>
+                I built the life simulation and financial systems: character progression, career selection,
+                insurance calculations, and major life events. I also wrote unit tests (for example, for insurance
+                premiums) and spent a lot of time debugging how objects interact.
+              </p>
+              <p class="project-meta">What I learned</p>
+              <p>
+                We split the game into small classes with single responsibilities, which made it easy to add new
+                events later. It showed me how design choices made early affect how easily a product can grow.
+              </p>
+              <!-- TODO: replace the link below with this project's repo URL -->
+              <a href="https://github.com/csequeira18" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </section>
 
-
+    <!-- CONTACT -->
     <section class="site-section" id="contact-section" data-aos="fade">
       <div class="container">
         <div class="row mb-5">
@@ -327,43 +273,36 @@
           </div>
         </div>
         <div class="row mb-5 text-center">
-
-
-
-          
-          
-          <div class="col-md-12 text-center">
+          <div class="col-md-12 text-center mb-4">
             <p class="mb-0">
               <span class="icon-mail_outline d-block h4 text-primary"></span>
-              <span>csequeira@sandiego.edu</span>
+              <a href="mailto:csequeira@sandiego.edu">csequeira@sandiego.edu</a>
             </p>
           </div>
-          
-          <div class="col-md-12 text-center">
+          <div class="col-md-12 text-center contact-links">
             <p class="mb-0">
               <span class="icon-graduation-cap d-block h4 text-primary"></span>
-              <a href="file:///Users/cocosequeira/Downloads/C.SequeiraResume202526.docx.html">Resume</a>
+              <!-- TODO: save your resume as files/Sequeira_Resume.pdf (the old link pointed at your own laptop) -->
+              <a href="files/Sequeira_Resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+              <a href="https://github.com/csequeira18" target="_blank" rel="noopener">GitHub</a>
+              <!-- TODO: add your LinkedIn, then uncomment the next line
+              <a href="https://www.linkedin.com/in/YOUR-NAME" target="_blank" rel="noopener">LinkedIn</a>
+              -->
             </p>
           </div>
         </div>
-
       </div>
     </section>
 
-
     <footer class="site-footer">
       <div class="container">
-
-          <div class="col-md-12 text-center">
-            <p>
+        <div class="col-md-12 text-center">
+          <p>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website builds on a template by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website builds on a template by <a href="https://colorlib.com" target="_blank" rel="noopener">Colorlib</a>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-
-          </div>
-
-
+          </p>
+        </div>
       </div>
     </footer>
 
@@ -381,9 +320,8 @@
   <script src="js/jquery.sticky.js"></script>
   <script src="js/isotope.pkgd.min.js"></script>
   <script src="js/collapsable.js"></script>
-
-
   <script src="js/main.js"></script>
 
-  </body>
+</body>
+
 </html>
